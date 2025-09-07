@@ -1,0 +1,48 @@
+.profile-card {
+  width: 90%;
+  background-color: skyblue;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-family: sans-serif;
+  max-width: 300px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #e0f7fa;
+}
+.skills {
+  margin-top: 15px;
+  /* background-color: green; */
+}
+.skill-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.skill-bar span {
+  display: inline-block;
+  height: 100%;
+  background-color: #1a73e8;
+  border-radius: 5px;
+}
